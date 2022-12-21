@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const productRoute = require("./routes/productRoute");
 const userRoute = require("./routes/userRoute");
+const signupRoute = require("./routes/signUpRoute");
 const globalErrorHandler = require("./controllers/errorController");
 const AppError = require("./utils/appError");
 const morgan = require("morgan");
@@ -18,6 +19,7 @@ app.use(express.json());
 app.use(express.static(`${__dirname}/public/warhouseIndex.html`));
 app.use("/warehouse/api/v1/products", productRoute);
 app.use("/warehouse/api/v1/users", userRoute);
+app.use("/warehouse/api/v1/signup", signupRoute);
 
 if (process.env.NODE_ENV === "development") {
   console.log(`You are in development mode...`);
@@ -34,4 +36,3 @@ app.all("*", (req, res, next) => {
 app.use(globalErrorHandler);
 
 module.exports = app;
-
