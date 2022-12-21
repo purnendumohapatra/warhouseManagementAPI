@@ -1,0 +1,178 @@
+[
+  {
+    "productName": "Realme Smart Watch",
+    "category": "Electronics",
+    "CustomerRating": 4.0,
+    "price": 4999,
+    "priceDiscount": 200,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "realme_watch.jpg",
+    "quantity": 167
+  },
+  {
+    "productName": "Voltas vertis Platina",
+    "category": "Electronics",
+    "CustomerRating": 4.6,
+    "price": 40999,
+    "priceDiscount": 2000,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "realme_watch.jpg",
+    "quantity": 77
+  },
+  {
+    "productName": "Google Home",
+    "category": "Electronics",
+    "CustomerRating": 3.8,
+    "price": 4999,
+    "priceDiscount": 200,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "realme_watch.jpg",
+    "quantity": 43
+  },
+  {
+    "productName": "IFB Microwave Oven",
+    "category": "Electronics",
+    "CustomerRating": 3.9,
+    "price": 21999,
+    "priceDiscount": 1000,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "realme_watch.jpg",
+    "quantity": 27
+  },
+  {
+    "productName": "WhirlPool Fridge",
+    "category": "Electronics",
+    "CustomerRating": 4.1,
+    "price": 27347,
+    "priceDiscount": 2000,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "realme_watch.jpg",
+    "quantity": 11
+  },
+  {
+    "productName": "Samsung Galaxy S10",
+    "category": "Electronics",
+    "CustomerRating": 4.8,
+    "price": 45676,
+    "priceDiscount": 7000,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "realme_watch.jpg",
+    "quantity": 7
+  },
+  {
+    "productName": "Amul Butter-750g",
+    "category": "Groceries",
+    "CustomerRating": 4.5,
+    "price": 48,
+    "priceDiscount": 5,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "butter.jpg",
+    "quantity": 100
+  },
+  {
+    "productName": "Fortune Basmati Rice",
+    "category": "Groceries",
+    "CustomerRating": 4.0,
+    "price": 185,
+    "priceDiscount": 30,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "Basmati.jpg",
+    "quantity": 48
+  },
+  {
+    "productName": "Ruchi ChickenMasala",
+    "category": "Groceries",
+    "CustomerRating": 3.9,
+    "price": 29,
+    "priceDiscount": 5,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "ruchi.jpg",
+    "quantity": 17
+  },
+  {
+    "productName": "Tata Tea-500g",
+    "category": "Groceries",
+    "CustomerRating": 4.2,
+    "price": 199,
+    "priceDiscount": 20,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "tea.jpg",
+    "quantity": 23
+  },
+  {
+    "productName": "Tata Salt-200g",
+    "category": "Groceries",
+    "CustomerRating": 3.5,
+    "price": 70,
+    "priceDiscount": 10,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "salt.jpg",
+    "quantity": 200
+  },
+  {
+    "productName": "Haldiram Soan papdi",
+    "category": "Sweets",
+    "CustomerRating": 4.8,
+    "price": 149,
+    "priceDiscount": 50,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "papdi.jpg",
+    "quantity": 304
+  },
+  {
+    "productName": "Amul Rasmalai-200g",
+    "category": "Sweets",
+    "CustomerRating": 3.7,
+    "price": 299,
+    "priceDiscount": 40,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "sweet-1.jpg",
+    "quantity": 56
+  },
+  {
+    "productName": "Bikalananda kar Rasgulla-500g",
+    "category": "Sweets",
+    "CustomerRating": 4.3,
+    "price": 159,
+    "priceDiscount": 20,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "sweets-2.jpg",
+    "quantity": 107
+  },
+  {
+    "productName": "Baked Chhena Poda-500g",
+    "category": "Sweets",
+    "CustomerRating": 3.8,
+    "price": 250,
+    "priceDiscount": 100,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "realme_watch.jpg",
+    "quantity": 170
+  },
+  {
+    "productName": "Kesar Peda - 200g",
+    "category": "Sweets",
+    "CustomerRating": 4.9,
+    "price": 190,
+    "priceDiscount": 50,
+    "summary": "Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10.  It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos.That's not all, the Samsung S10 has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+    "description": "This is the description of a smartphone of 5G connectivity..",
+    "image": "peda.jpg",
+    "quantity": 78
+  }
+]

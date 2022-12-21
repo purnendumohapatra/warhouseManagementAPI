@@ -1,0 +1,52 @@
+->There are three Categories of data in the warehouse:-
+1>Electronics
+2>Groceries
+3>Sweets
+
+->Task to do is Add the API(application programming interface) filtering concept in The API.
+->Add the error handling mechanism in API.
+->Add Switching the environment feature in the API.
+->Do gitHub Addition in the API.
+
+->Simple error creation code 
+
+ const error = new Error(`can't find the ${req.originalUrl} on the server..`);
+ error.status = "fail";
+ error.statusCode = 404;
+
+  Creating the JSON response.
+
+res.status(200).json({
+    status: "fail",
+    message: `can't find the ${req.originalUrl} on the server`,
+  });
+
+//sendprodError  sendDevError
+
+//production Error
+const sendErrorProd = (err,res)=>{
+    //Operational Error, trusted errors send message to client
+    // console.log("The value of isOperational in errorController is :- ",err.isOperational);
+    if(err.isOperational){
+        res.status(err.statuscode).json({
+            status:err.status,
+            message:err.message
+        });
+    }else{
+        // console.error(`Error :- ${err}`);
+        res.status(err.statuscode).json({
+            status:err.status,
+            message:"Production sensetive message..."
+        });
+    }
+};
+
+//Development Error
+const sendErrorDev = (err,res)=>{
+    res.status(err.statuscode).json({
+            status:err.status,
+            error:err,
+            message:err.message,
+            stack:err.stack
+        });
+};
