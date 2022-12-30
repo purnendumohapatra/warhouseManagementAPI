@@ -3,6 +3,7 @@ const app = express(); //storing the instance of express in app variable.
 const productRoute = require("./routes/productRoute");
 const userRoute = require("./routes/userRoute");
 const signupRoute = require("./routes/signUpRoute");
+const loginRoute = require("./routes/loginRoute");
 const globalErrorHandler = require("./controllers/errorController");
 const AppError = require("./utils/appError");
 const morgan = require("morgan");
@@ -17,6 +18,7 @@ app.use(express.static(`${__dirname}/public/warehouseIndex.html`));
 app.use("/warehouse/api/v1/products", productRoute);
 app.use("/warehouse/api/v1/users", userRoute);
 app.use("/warehouse/api/v1/users/signup", signupRoute);
+app.use("/warehouse/api/v1/users/login", loginRoute);
 
 if (process.env.NODE_ENV === "development") {
   console.log(`Hey You are in development mode...`);

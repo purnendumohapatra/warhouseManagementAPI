@@ -48,16 +48,26 @@ const userSchema = new mongoose.Schema({
   active: {
     type: Boolean,
     required: true,
+    default: true,
   },
 });
 
+//Mongoose middleware to encrypt password.
 userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) {
     return next();
   }
-  this.password = await bcrypt.hash(this.password,12);
+  this.password = await bcrypt.hash(this.password, 12);
   this.confirmPassword = undefined;
 });
+
+//Instance method to decrypt password and perform authentication.
+userSchema.methods.authenticateUserDetails = async function (
+  passwordInDB,
+  GivenUserPassword
+) {
+  return await bcrypt.compare(passwordInDB, GivenUserPassword);
+};
 
 const user = mongoose.model("user", userSchema);
 module.exports = user;
