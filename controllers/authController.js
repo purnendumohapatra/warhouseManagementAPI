@@ -41,5 +41,3 @@ exports.login = catchAsync(async (req, res, next) => {
     });
   }
 });
-
-console.log(`The new data has been pushed over here`);
