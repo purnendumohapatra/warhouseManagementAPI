@@ -3,8 +3,9 @@ dotenv.config({ path: "../config.env" });
 
 const sendErrProd = (err, req, res) => {
   if (err.isOperational) {
-    res.status(err.statusCode),
-      json({ status: err.status, message: err.message });
+    res
+      .status(err.statusCode)
+      .json({ status: err.status, message: err.message });
   } else {
     res.status(err.statusCode).json({
       status: err.status,

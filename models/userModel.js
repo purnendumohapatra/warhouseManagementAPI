@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const validator = require("validator");
-const brcypt = require("bcrypt");
+const bcrypt = require("bcrypt");
 
 const userSchema = new mongoose.Schema({
   username: {
@@ -22,8 +22,11 @@ const userSchema = new mongoose.Schema({
 
   role: {
     type: String,
-    enum: ["Manager", "User", "admin", "Sales Manager"],
-    required: true,
+    enum: {
+      values: ["user", "sales Manager", "admin", "manager"],
+      message: "The user role is either: user,sales manager,admin,manager",
+    },
+    default: "user",
   },
 
   password: {
@@ -52,7 +55,7 @@ userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) {
     return next();
   }
-  this.password = await brcypt.hash(this.password, 12);
+  this.password = await bcrypt.hash(this.password,12);
   this.confirmPassword = undefined;
 });
 
