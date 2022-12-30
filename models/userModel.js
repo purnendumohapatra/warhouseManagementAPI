@@ -66,7 +66,7 @@ userSchema.methods.authenticateUserDetails = async function (
   passwordInDB,
   GivenUserPassword
 ) {
-  return await bcrypt.compare(passwordInDB, GivenUserPassword);
+  return await bcrypt.compare(GivenUserPassword, passwordInDB);
 };
 
 const user = mongoose.model("user", userSchema);

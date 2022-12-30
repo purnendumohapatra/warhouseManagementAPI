@@ -29,12 +29,12 @@ exports.login = catchAsync(async (req, res, next) => {
   }
 
   const User = await user.findOne({ email: email }).select("+password");
-  let value = await user.authenticateUserDetails(user.password, password);
-
+  let value = await User.authenticateUserDetails(User.password, password);
+  console.log(User.password, password, value);
   if (!User || !value) {
     next(new appError(`Incorrect Password or email`, 401));
   } else {
-    token = generateJwtToken(user._id);
+    let token = generateJwtToken(user._id);
     res.status(200).json({
       status: "You are our genuine user and you have successfully logged In..",
       token: token,
