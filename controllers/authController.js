@@ -5,7 +5,11 @@ const jwt = require("jsonwebtoken");
 const appError = require("../utils/appError");
 
 const generateJwtToken = (id) => {
-  return jwt.sign({ id: id }, process.env.JWT_SECRET);
+  return jwt.sign(
+    { id: id },
+    process.env.JWT_SECRET,
+    process.env.JWT_EXPIRES_IN
+  );
 };
 
 //The function which comes into action during sign Up process.
