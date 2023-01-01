@@ -27,14 +27,11 @@ exports.signUpUser = catchAsync(async (req, res) => {
 
 exports.login = catchAsync(async (req, res, next) => {
   const { email, password } = req.body;
-
   if (!email || !password) {
     next(new appError(`Sorry you have not given the email and password`, 400));
   }
-
   const User = await user.findOne({ email: email }).select("+password");
   let value = await User.authenticateUserDetails(User.password, password);
-  console.log(User.password, password, value);
   if (!User || !value) {
     next(new appError(`Incorrect Password or email`, 401));
   } else {
