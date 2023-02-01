@@ -20,6 +20,11 @@ app.use("/warehouse/api/v1/users", userRoute);
 app.use("/warehouse/api/v1/users/signup", signupRoute);
 app.use("/warehouse/api/v1/users/login", loginRoute);
 
+app.get("/", (req, res, next) => {
+  console.log(`Hello developers`);
+  res.status(200).json({ message: "successful dockerisation" });
+});
+
 if (process.env.NODE_ENV === "development") {
   console.log(`Hey You are in development mode...`);
   app.use(morgan("dev"));
